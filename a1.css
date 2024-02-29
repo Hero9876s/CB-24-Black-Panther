@@ -1,0 +1,79 @@
+/* css for sign in page(light mode) */
+
+.border1 {
+    height: 700px;
+    width: 350px;
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px rgb(60, 151, 172);
+    margin-left: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.heading1 {
+    font-size: 43px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.para1 {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.submit1 {
+    margin-left: 36px;
+    font-size: 20px;
+    background-color: rgb(7, 153, 193);
+    border-radius: 9px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    height: 38px;
+    border-width: 0px;
+}
+
+.box1 {
+    margin-left: 36px;
+    font-size: 18px;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 12px;
+    background-color: rgb(210, 244, 245);
+    border-radius: 9px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+
+}
+
+.para11 {
+    margin-left: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.bor1 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 80px;
+    width: 350px;
+    margin-left: 550px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px rgb(60, 151, 172);
+    border-radius: 10px;
+}
+
+.body1 {
+    background-size: 1550px 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image:url('https://media.istockphoto.com/id/1310954757/vector/delicate-defocused-lights-background.jpg?s=612x612&w=0&k=20&c=M7sHJreEqtrGafLzLKpMIpul1A-DEllM53qSewU7F8c='); */
+    color: rgb(0, 0, 0);
+    background-color: rgb(179, 207, 213);
+
+}

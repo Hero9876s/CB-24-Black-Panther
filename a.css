@@ -1,0 +1,73 @@
+/* css for sign in page (dark mode) */
+
+.border {
+    height: 700px;
+    width: 350px;
+    border: 0px solid rgb(255, 255, 255);
+    margin-left: 550px;
+    background-color: rgb(26, 27, 26);
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 43px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(255, 251, 251);
+    text-align: center;
+    color: white;
+}
+
+.para {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.submit {
+    margin-left: 36px;
+    font-size: 20px;
+    background-color: rgb(7, 153, 193);
+    border-radius: 9px;
+    width: 300px;
+    color: white;
+    height: 38px;
+    border-width: 0px;
+}
+
+.box {
+    margin-left: 36px;
+    font-size: 18px;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 12px;
+    background-color: rgb(67, 93, 109);
+    border-radius: 9px;
+    color: white;
+
+}
+
+.para1 {
+    margin-left: 35px;
+    color: white;
+}
+
+.bor {
+    border: 0px solid rgb(255, 242, 242);
+    height: 80px;
+    width: 350px;
+    margin-left: 550px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(26, 27, 26);
+    border-radius: 10px;
+}
+
+.body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(56, 59, 54);
+    color: white;
+}

@@ -1,0 +1,83 @@
+/* css page for login(light mode) */
+
+.border22 {
+    border: 1px solid rgb(0, 0, 0);
+    height: 450px;
+    width: 350px;
+    margin-left: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px rgb(60, 151, 172);
+    border-radius: 10px;
+
+}
+
+.heading22 {
+    font-size: 43px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.box22 {
+    margin-left: 36px;
+    font-size: 18px;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 12px;
+    background-color: rgb(210, 244, 245);
+    border-radius: 9px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+}
+
+.submit22 {
+    margin-left: 36px;
+    font-size: 20px;
+    background-color: rgb(7, 153, 193);
+    border-radius: 9px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    height: 38px;
+    border-width: 0px;
+}
+
+.a22 {
+    font-size: 24px;
+    margin-left: 56px;
+    text-decoration: none;
+}
+
+.a32 {
+    font-size: 15px;
+    margin-left: 120px;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.margin2 {
+    margin-top: 22px;
+}
+
+.bor22 {
+    border: 0px solid rgb(0, 0, 0);
+    height: 80px;
+    width: 350px;
+    margin-left: 550px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px rgb(60, 151, 172);
+    border-radius: 10px;
+}
+
+.body22 {
+    background-size: 1550px 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(179, 207, 213);
+    /* background-image:url('https://media.istockphoto.com/id/1310954757/vector/delicate-defocused-lights-background.jpg?s=612x612&w=0&k=20&c=M7sHJreEqtrGafLzLKpMIpul1A-DEllM53qSewU7F8c=') */
+}

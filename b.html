@@ -1,0 +1,70 @@
+<!-- login page in dark mode -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+
+<body class="body2">
+    <div>
+        <button style="background-color:rgb(87, 87, 87); margin-left:1400px;"><a href="b1.html"
+                style="font-family:cursive; font-size:medium; text-decoration:none; color:white;">Light
+                Mode</a></button>
+    </div>
+    <div class="border2">
+        <h1 class="heading2">Buy-Sell</h1>
+        <form>
+            <input type="text" id="username" name="myname" class="box2" placeholder="Phone number, username, or email" required>
+            <input type="password" id="password" onblur="validatePassword()" class="box2" placeholder="password"
+                required>
+        </form>
+        <input type="submit" value="Log in" class="submit2" onclick="validateLogin()">
+
+        <hr style="width:150px; margin-top:30px; margin-bottom:20px; text-align:center; color:white;">
+        <a href="www.hello.com" class="a2">Log in with facebook.</a>
+        <div class="margin">
+            <a href="www.hello.com" class="a3">forgot password?</a>
+        </div>
+    </div>
+    <!-- if we do not have an account , so to make a account -->
+    <div class="bor2">
+        <p style="margin-left:35px; color:rgb(255, 255, 255);">Don't have an account? <a href="a.html">Sign in</a></p>
+    </div>
+    <div>
+        <p style="text-align:center; color:white;">Get the apps?</p>
+        <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+            style="display:inline; height:50px; width:200px; margin-left:550px;position:relative;"><img
+            src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"
+            style="display:inline; height:50px; width:200px; margin-left:10px;position:absolute;">
+    </div>
+
+
+
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Check if the password is incorrect
+            if (password !== 'satyam') {
+                alert('Wrong password! Please try again.');
+            } else {
+
+                // to open the next webpage after login
+                window.location.href = 'button.html';
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
